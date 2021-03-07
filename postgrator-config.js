@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const postString = process.env.DB_URL;
+const postString = process.env.DATABASE_URL;
 
 module.exports = {
   "migrationDirectory": "migrations",
