@@ -10,7 +10,7 @@ const cleanNotes = charas => ({
     id: charas.id,
     name: charas.name,
     race: charas.race,
-    class: charas.class,
+    job: charas.job,
     skills: charas.skills,
     str: charas.str,
     dex: charas.dex,
@@ -46,7 +46,7 @@ charaRouter
 
         newChara.name = name;
         newChara.race = race;
-        newChara.class = job;
+        newChara.job = job;
         newChara.skills = skills;
         newChara.str = str;
         newChara.dex = dex;
